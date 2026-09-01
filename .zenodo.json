@@ -1,0 +1,46 @@
+{
+  "upload_type": "software",
+  "title": "Silicon Sample Benchmark — Tier 1 (individual simulation) submission (team team_19)",
+  "version": "1.0-t1",
+  "language": "eng",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Sucholutsky, Ilia",
+      "affiliation": "Purdue University"
+    }
+  ],
+  "description": "<p>Tier-1 individual-level synthetic sample for the Silicon Sample Benchmark (team_19). A single language model (Claude, via Claude Code) read the full survey instrument and all sixteen intervention texts and wrote an explicit generative model as a parameter file (control baselines per item, demographic structure, a per-intervention x per-outcome treatment-effect matrix, and partisan moderation); a seeded simulator then draws 4,000 synthetic profiles and runs each through all 17 conditions with common random numbers (68,000 rows; 4,000 per condition). No external API calls, no data from this study.</p>",
+  "keywords": [
+    "Silicon Sample Benchmark",
+    "silicon sampling",
+    "large language models",
+    "computational social science",
+    "survey methodology",
+    "public opinion",
+    "climate communication",
+    "treatment effect prediction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/amendment_preregistration.html",
+      "relation": "references",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/ilia10000/silicon-sample-team19",
+      "relation": "isCompiledBy",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Team team_19. Disclosure class A."
+}
